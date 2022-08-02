@@ -178,7 +178,7 @@ document.getElementById("btn1").click();
               }
                 ></input><span onClick={clickHome} ><img  className="src-click" src={srcIcon}></img></span>
               </div>
-              <Link onClick={closeMenu} to="/" className="app-nav">
+              <Link onClick={closeMenu} to="/senopulence" className="app-nav">
                 <button id="btn1" className="nav-btn">
                   {" "}
                   Home{" "}
@@ -287,7 +287,7 @@ document.getElementById("btn1").click();
               <span id="line3" className="hr1"></span>
             </span>
             <div id="menu" className="menu">
-              <Link to="/" className="app-nav">
+              <Link to="/senopulence" className="app-nav">
                 <button onClick={closeMenu} id="btn1" className="nav-btn">
                   {" "}
                   Home{" "}
