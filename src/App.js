@@ -310,7 +310,7 @@ document.getElementById("btn1").click();
 
           <main className="main-view">
             <Routes>
-              <Route path="/" element={<Home srchValue={search} setValue={setSearch} />}></Route>
+              <Route path="/senopulence" element={<Home srchValue={search} setValue={setSearch} />}></Route>
               <Route path="/About" element={<About />}></Route>
               <Route path="/Help" element={<Help />}></Route>
             </Routes>
